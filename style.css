@@ -16,7 +16,7 @@ i {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: brown;
+    background-color: blue;
     margin-bottom: 1em;
 }
 
@@ -29,7 +29,7 @@ i {
 }
 
 .titulo-columna {
-    background-color: brown;
+    background-color: blue;
     text-align: center;
 }
 
