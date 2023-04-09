@@ -74,7 +74,8 @@ h3 {
 }
 
 .referencia-img {
-    width: 90%;
+    width: 100%;
+    height: 65%;
     border-radius: 20%;
     border: 0.2em solid rgb(125, 139, 168);
 }
