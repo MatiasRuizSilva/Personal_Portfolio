@@ -2,7 +2,7 @@ body {
     font-family: "Montserrat", sans-serif;
     /* font-family: 'Open Sans', sans-serif; */
     background-color: rgb(25, 23, 23);
-    color: rgb(202, 202, 202);
+    color: white;
 }
 
 i {
@@ -90,7 +90,7 @@ h3 {
 
 .contacto-icono {
     width: 33%;
-    background-color: rgb(125, 139, 168);
+    background-color: white;
     border-radius: 15%;
     border: 0.2em solid rgb(125, 139, 168);
     margin: 1em;
@@ -107,3 +107,7 @@ h3 {
     margin: 0em;
     transition: 0.3s;
 }
+
+/* @media .imagen {
+    
+} */
