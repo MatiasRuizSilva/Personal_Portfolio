@@ -27,9 +27,17 @@ i{
 }
 
 .imagen {
-    text-align: right;
-    margin-right: 1rem;
+    text-align: center;
+    display: flex;
+    /* margin-right: 1rem; */
+}
 
+
+.foto-perfil {
+    width: 19rem;
+    border-radius: 9em;
+    border: 0.1em solid;
+    position: relative;
 }
 
 .titulo-columna {
@@ -38,11 +46,6 @@ i{
     background-color: blue;
     text-align: center;
     padding: 0.7rem
-}
-
-.foto-perfil {
-    border-radius: 9em;
-    border: 0.5em solid;
 }
 
 .dato {
