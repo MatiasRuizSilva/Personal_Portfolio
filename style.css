@@ -6,27 +6,38 @@ body {
     font-size: 1.1rem;
 }
 
-.cabecera {
+.cabecera-container {
     width: 100%;
+    display: flex;
     margin: auto;
-    justify-content: space-between;
     background-color: blue;
-    padding-bottom: 0.9em;
     margin-bottom: 1rem;
+    height: 5rem;
+}
+
+.top{
+    background-color: aqua;
+    align-items: center;
+    display: flex;
+    flex: 8;
 }
 
 .toggle{
-    width: 10%;
+    background-color: aquamarine;
+    align-items: center;
     display: flex;
-    font-size: 3em;
+    flex: 1;
+    justify-content: center;
 }
 
 i{
+    background-color: brown;
+    font-size: 3em;
     cursor: pointer;
     transform: translate(-50%, -50%);
 }
 
-.imagen {
+.imagen-container {
     text-align: center;
     display: flex;
     /* margin-right: 1rem; */
