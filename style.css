@@ -130,6 +130,10 @@ h3 {
     transition: 0.3s;
 }
 
+ul, p, .dato{
+    font-size: 1.3rem;
+}
+
 /* img animada*/
 
 .foto-container {
