@@ -14,8 +14,6 @@ toggle.addEventListener("click", function () {
         toggle.classList.remove(...toggle.classList);
         toggle.classList.add("bi-brightness-high-fill");
         toggle.classList.add("bi");
-
-        // toggle.classList.add("bi-moon");
     } else {
         body.style.background = "lightgrey";
         body.style.color = "black";
@@ -23,10 +21,9 @@ toggle.addEventListener("click", function () {
         localStorage.setItem("theme", "light");
         toggle.classList.remove(...toggle.classList);
         toggle.classList.add("bi-moon");
-        // toggle.classList.add("bi-brightness-high-fill");
-        // toggle.classList.add("bi");
     }
 });
+
 
 //**Captura la ip de la PC **//
 
