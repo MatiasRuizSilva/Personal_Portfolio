@@ -59,7 +59,8 @@ i {
     padding: 0.7rem;
 }
 
-.sector-datos, .sector-estudios {
+.sector-datos,
+.sector-estudios {
     display: inline-block;
     padding: 0em 1em;
     margin: 0.2em;
@@ -130,7 +131,9 @@ h3 {
     transition: 0.3s;
 }
 
-ul, p, .dato{
+ul,
+p,
+.dato {
     font-size: 1.3rem;
 }
 
@@ -221,5 +224,14 @@ ul, p, .dato{
     }
     100% {
         background-position: 0 0;
+    }
+}
+
+@media (max-width: 300) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-container div {
+        flex-basis: 100%;
     }
 }
